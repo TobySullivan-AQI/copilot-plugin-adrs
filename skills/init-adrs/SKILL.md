@@ -59,5 +59,7 @@ Each ADR lives in its own subdirectory named `YYYY-MM-DD-short-name/`. The main 
 
 ## Creating a New ADR
 
-Run `/draft-adr [short-name] [description]` to start.
+Ask GitHub Copilot to draft a new ADR. For example:
+
+> Draft an ADR for migrating from REST to GraphQL
 ~~~~~

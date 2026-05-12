@@ -40,13 +40,13 @@ Present your proposed approach to the user for approval. The proposal should inc
 - The approach you recommend and why
 - Key tradeoffs or alternatives you considered
 
-Use the `ask_user` tool to confirm the plan with the user before proceeding. The user may approve, modify, or provide feedback to adjust. Only move forward once the proposal is approved.
+If the session is already in plan mode, present the plan for approval or feedback. Otherwise, use the `ask_user` tool to confirm the plan with the user before proceeding. The user may approve, modify, or provide feedback to adjust. Only move forward once the proposal is approved.
 
 ### 3. Plan the ADR
 
 Delegate research and detailed planning to a subagent. You must never plan the ADR content directly — always delegate.
 
-**If the microplanner agent is available** (from the `copilot-plugin-microplans` plugin):
+**If the `microplanner` agent is available** (provided by a plugin which the user may or may not have installed):
 
 Delegate to the **microplanner** agent. In your delegation prompt:
 
